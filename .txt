@@ -1,0 +1,24 @@
+1) List 5 difference between Browser JS(console) v Nodejs
+A.  1. JavaScript is  programming language while NodsJS is a Java Script run time environment.
+    2. JS is on client side while Nodejs is on server side.
+    3. JS can run only in any browser while Nodejs can run outside the browser.
+    4. JS runs in all JS engines but Ndejs can run only in V8 JS engine of Goggle Chrome.
+    5. JS can add HTML tags but Nodejs cannot.
+    6. JS is used for frontend development while Nodejs is used for server side development.
+    
+2) How does a browser render a web page?
+A.  Initially, the browser reads the HTML text and converts it into DOM tree and later into CSSOM tree. Then a render tree is created and the printing of the page will start. 
+ Now, the layouting process will start. Based on the details given in the render tree, the size, color and all the layout will be created. Now the painting process starts where 
+ the layers will be created and in each layer required data will be printed and this process is called rasterization. Now to finally print it on the screen Composting process is done. 
+ The actual process of rendering is DOM contruction followed by CSSOM construction then render tree construction followed by layouting then painting and finally composting. 
+
+4)  
+  typeof(1)    "number"
+  typeof(1.1)  "number"
+  typeof('1.1') "String"
+  typeof(true) "boolean"
+  typeof(null)  "object"
+  typeof(undefined) "undefined"
+  typeof([])  "object"
+  typeof({})   "object"
+   typeof(NaN) "number"
